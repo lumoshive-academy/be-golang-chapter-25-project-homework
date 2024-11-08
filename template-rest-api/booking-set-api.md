@@ -30,6 +30,6 @@
 ```json
 {
   "statusCode": 409,
-  "error": "The selected seat is already booked."
+  "message": "The selected seat is already booked."
 }
 ```

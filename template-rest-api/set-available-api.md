@@ -3,7 +3,7 @@
 ```json
 {
   "statusCode": 200,
-  "availableSeats": [
+  "data": [
     { "seatId": "A1", "status": "available" },
     { "seatId": "A2", "status": "available" },
     { "seatId": "A3", "status": "booked" }
@@ -15,6 +15,6 @@
 ```json
 {
   "statusCode": 404,
-  "error": "No available seats found for the specified cinema and schedule."
+  "message": "No available seats found for the specified cinema and schedule."
 }
 ```

@@ -20,7 +20,7 @@
 ```json
 {
   "statusCode": 409,
-  "error": "Username already exists."
+  "message": "Username already exists."
 }
 ```
 
@@ -37,7 +37,11 @@
 ```json
 {
   "statusCode": 200,
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  "data" :{
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."    
+  }
 }
 ```
 
@@ -45,7 +49,7 @@
 ```json
 {
   "statusCode": 401,
-  "error": "Invalid username or password."
+  "message": "Invalid username or password."
 }
 ```
 

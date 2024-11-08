@@ -3,7 +3,7 @@
 ```json
 {
   "statusCode": 200,
-  "paymentMethods": [
+  "data": [
     { "id": "1", "name": "Credit Card" },
     { "id": "2", "name": "Bank Transfer" },
     { "id": "3", "name": "Digital Wallet" }
@@ -39,6 +39,6 @@
 ```json
 {
   "statusCode": 402,
-  "error": "Payment failed due to insufficient funds."
+  "message": "Payment failed due to insufficient funds."
 }
 ```

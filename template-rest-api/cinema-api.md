@@ -3,19 +3,19 @@
 ```json
 {
   "statusCode": 200,
-  "cinemas": [
+  "data": [
     { "id": "1", "name": "Cinema XXI", "location": "Jakarta" },
     { "id": "2", "name": "Cinema CGV", "location": "Bandung" }
   ]
 }
 ```
 
-### GET /api/cinemas
+### GET /api/cinemas/{cinemaId}
 - Response Success (200 OK)
 ```json
 {
   "statusCode": 200,
-  "cinema": {
+  "data": {
     "id": "1",
     "name": "Cinema XXI",
     "location": "Jakarta",
@@ -28,6 +28,6 @@
 ```json
 {
   "statusCode": 404,
-  "error": "Cinema not found."
+  "message": "Cinema not found."
 }
 ```
